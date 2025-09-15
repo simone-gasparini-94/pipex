@@ -6,7 +6,7 @@
 /*   By: sgaspari <sgaspari@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/29 10:44:45 by sgaspari          #+#    #+#             */
-/*   Updated: 2025/09/15 18:23:20 by sgaspari         ###   ########.fr       */
+/*   Updated: 2025/09/15 18:26:10 by sgaspari         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	check_argc(int argc, int n)
 {
 	if (argc != n)
 	{
-		ft_fprintf(STDERR_FILENO, "arguments", n);
+		ft_fprintf(STDERR_FILENO, "arguments\n", n);
 		exit (EXIT_FAILURE);
 	}
 }
