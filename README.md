@@ -1,4 +1,3 @@
-# Pipex
 C project that replicates the behaviour of shell pipes
 
 ## How to run
